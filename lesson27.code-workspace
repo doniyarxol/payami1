@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "lesson27",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../dasturlash-27/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson27"
+	}
+}

@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #edf3f8;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  align-items: center;
+}
+
+.btn {
+  width: 173px;
+  height: 48px;
+  border-radius: 24px;
+  background: #BA4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border: none;
+  color: white;
+}
+
+.start {
+  background-color: #FBFCFE;
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 58px;
+}
+
+.start-text h1 {
+  color: #36536B;
+  font-family: DM Serif Display;
+  font-size: 72px;
+
+  line-height: 72px;
+
+}
+
+
+
+.start-img img {
+
+  height: 500px;
+}
+
+.tesla-text h1,
+p {
+  text-align: start;
+  color: white;
+  margin-top: 24px;
+}
+
+.tesla-text button {
+  margin-top: 32px;
+  width: 129px;
+  height: 48px;
+  color: white;
+  background-color: initial;
+  border-color: white;
+  border-radius: 50px;
+}
+
+.tesla-img {
+  display: flex;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+
+}
+
+.tesla {
+  background-color: #1B262F;
+  display: flex;
+  gap: 450px;
+  align-items: center;
+  justify-content: center;
+
+  height: 472px;
+}
+
+.easy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.easy-text h1 {
+  color: #36536B;
+  font-size: 48px;
+}
+
+.easy-text p {
+  text-align: start;
+  color: #6C8294;
+  font-size: 15px;
+}
+
+.person {
+  width: 350px;
+  display: flex;
+
+  margin-left: 200px;
+  margin-bottom: 72px;
+}
+
+.person-icon {
+  width: 350px;
+}
+
+.person h5 {
+  color: #36536B;
+}
+
+.person-text {
+
+  text-align: center;
+}
+
+.end {
+  color: white;
+  background-color: #1B262F;
+  width: 1419px;
+  height: 100px;
+  display: flex;
+  gap: 560px;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-img img {
+  width: 135px;
+  height: 38px;
+}
+
+.end-img {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.end-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+
+
+#toggeler,
+label {
+  display: none;
+}
+
+label i {
+  color: black;
+  font-size: 24px;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: rgb(173, 84, 99);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+@media(max-width: 650px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  label {
+    display: inline-flex;
+  }
+
+  #toggeler:checked~.menu {
+    max-height: 100%;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+
+@media (max-width:763px) {
+  .start {
+    flex-direction: column;
+
+
+  }
+
+  .start-text {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+  }
+
+  .tesla {
+    width: 665px;
+    height: 670px;
+    text-align: center;
+    
+    display: flex;
+    display: block;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tesla-text h1,p {
+    text-align: center
+  }
+
+  .tesla-text {
+   max-width: 300px;
+   text-align: center;
+  }
+
+  .tesla-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 90px;
+   
+    height: 154px;
+    flex-wrap: wrap;
+  }
+
+  .easy {
+    display: block;
+    text-align: center;
+  }
+
+  
+
+  .easy-text p {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .easy-text h5 {
+   
+    
+  }
+
+  .person {
+    display: block;
+
+  }
+
+  .person-iconn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .end {
+    max-width: 670px;
+    height: 353px;
+    text-align: center;
+    padding-top: 41px;
+  }
+
+  .end,
+  .end-img,
+  .ul {
+    display: block;
+  }
+
+  .end-icon {
+    padding-left: 290px;
+    padding-top: 40px;
+  }
+
+  .li {
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+
+}
